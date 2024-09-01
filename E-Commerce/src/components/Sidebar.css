@@ -1,0 +1,106 @@
+/* Custom Styles */
+.custom-checkbox {
+  padding: 10px;
+}
+
+.custom-checkbox p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.custom-checkbox label {
+  font-size: 14px;
+  color: #555;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label {
+  color: #007bff;
+}
+
+.custom-checkbox div {
+  margin-top: 10px;
+}
+
+.custom-checkbox div input {
+  margin-right: 10px;
+}
+
+.custom-checkbox div label {
+  font-size: 14px;
+  color: #555;
+}
+
+.custom-checkbox div input:checked + label {
+  color: #007bff;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.slider-container .slider {
+  flex: 1;
+}
+
+.filter-button {
+  background-color: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.filter-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.filter-container {
+  width: 25%;
+  margin-top: 90px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #fef9f9;
+  border-radius: 16px;
+}
+
+.filter-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Radio Buttons Styling */
+.radio-container {
+  margin-top: 30px;
+}
+
+.radio-container p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.radio-container input[type="radio"] {
+  accent-color: #007bff;
+}
+
+.radio-container label {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.radio-container label:hover {
+  color: #007bff; 
+}
